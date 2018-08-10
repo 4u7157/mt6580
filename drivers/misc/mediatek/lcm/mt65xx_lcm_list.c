@@ -1045,6 +1045,11 @@ LCM_DRIVER *lcm_driver_list[] = {
 #if defined(AUO_WUXGA_DSI_VDO)
 	&auo_wuxga_dsi_vdo_lcm_drv,
 #endif
+
+#if defined(RM67160_400X400_DSI_CMD_OLED)
+	&rm67160_400x400_dsi_cmd_oled_drv,
+#endif
+
 };
 
 unsigned char lcm_name_list[][128] = {
